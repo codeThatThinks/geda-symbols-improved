@@ -1,0 +1,43 @@
+v 20130925 2
+P 150 500 150 400 1 0 0
+{
+T 100 395 5 6 0 1 90 8 1
+pinnumber=1
+T 100 350 5 6 0 1 270 8 1
+pinseq=1
+T 150 245 5 6 0 1 90 8 1
+pinlabel=1
+T 300 250 5 6 0 1 270 8 1
+pintype=pas
+}
+P 150 0 150 100 1 0 0
+{
+T 100 105 5 6 0 1 90 8 1
+pinnumber=2
+T 100 150 5 6 0 1 270 8 1
+pinseq=2
+T 150 255 5 6 0 1 90 8 1
+pinlabel=2
+T 300 400 5 6 0 1 270 8 1
+pintype=pas
+}
+L 300 288 0 288 3 0 0 0 -1 -1
+L 300 213 0 213 3 0 0 0 -1 -1
+L 150 100 150 213 3 0 0 0 -1 -1
+L 150 288 150 400 3 0 0 0 -1 -1
+T 0 1550 5 6 0 0 0 0 1
+device=CAPACITOR
+T 350 300 8 6 1 1 0 0 1
+refdes=C?
+T 0 1250 5 6 0 0 0 0 1
+numslots=0
+T 0 1400 5 6 0 0 0 0 1
+symversion=1.0
+T 350 145 8 6 1 1 0 0 1
+value=1 F
+T 0 1095 5 6 0 0 0 0 1
+footprint=unknown
+T 0 945 5 6 0 0 0 0 1
+author=Ian Glen <ian@ianglen.me>
+T 0 795 5 6 0 0 0 0 1
+dist-license=public domain

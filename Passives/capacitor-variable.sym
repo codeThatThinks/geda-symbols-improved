@@ -1,0 +1,50 @@
+v 20130925 2
+P 150 500 150 400 1 0 0
+{
+T 100 395 5 8 0 1 90 0 1
+pinnumber=1
+T 100 350 5 8 0 1 270 8 1
+pinseq=1
+T 150 245 9 8 0 1 90 6 1
+pinlabel=1
+T 150 300 5 8 0 1 270 2 1
+pintype=pas
+}
+P 150 0 150 100 1 0 0
+{
+T 100 105 5 8 0 1 90 6 1
+pinnumber=2
+T 100 150 5 8 0 1 270 2 1
+pinseq=2
+T 150 255 9 8 0 1 90 0 1
+pinlabel=2
+T 150 200 5 8 0 1 270 8 1
+pintype=pas
+}
+T 0 1450 5 6 0 0 0 0 1
+device=VARIABLE_CAPACITOR
+T 350 300 8 6 1 1 0 0 1
+refdes=C?
+T 0 1150 5 6 0 0 0 0 1
+numslots=0
+T 0 1300 5 6 0 0 0 0 1
+symversion=1.0
+T 350 145 8 6 1 1 0 0 1
+value=1 F
+T 0 995 5 6 0 0 0 0 1
+footprint=unknown
+L 50 425 250 75 3 0 0 0 -1 -1
+H 3 0 0 0 -1 -1 1 -1 -1 -1 -1 -1 5
+M 250,75
+L 207,100
+L 250,125
+L 250,75
+z
+L 300 288 0 288 3 0 0 0 -1 -1
+L 300 213 0 213 3 0 0 0 -1 -1
+L 150 100 150 213 3 0 0 0 -1 -1
+L 150 288 150 400 3 0 0 0 -1 -1
+T 18 845 8 6 0 0 0 0 1
+author=Ian Glen <ian@ianglen.me>
+T 18 695 8 6 0 0 0 0 1
+dist-license=public domain
