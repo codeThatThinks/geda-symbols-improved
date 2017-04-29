@@ -1,6 +1,15 @@
 # geda-symbols
 
-A better symbol library for gEDA. Smaller, more consistent, and more readable.
+A better symbol library for gEDA. Smaller, more consistent, and more readable. This is intended to be a complete replacement of the library included with gEDA.
+
+## Installation
+
+Download a zip of this archive and put the contents into a folder somewhere. Then modify your `~/.gEDA/gschemrc` add add the following lines, making sure to change `/path/to/the/folder/you/created/` to the path to the folder you created:
+
+```
+(reset-component-library)
+(component-library-search "/path/to/the/folder/you/created/")
+```
 
 ## License
 
