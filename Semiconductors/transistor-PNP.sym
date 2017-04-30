@@ -1,0 +1,58 @@
+v 20130925 2
+P 350 600 350 500 1 0 0
+{
+T 250 550 5 6 0 1 0 0 1
+pinnumber=E
+T 187 551 5 6 0 1 0 0 1
+pinseq=1
+T 180 597 5 6 0 1 0 0 1
+pintype=pas
+T 392 550 5 4 1 1 0 1 1
+pinlabel=E
+}
+P 350 100 350 0 1 0 1
+{
+T 250 0 5 6 0 1 0 0 1
+pinnumber=C
+T 234 0 5 6 0 1 0 0 1
+pinseq=3
+T 250 -2 5 6 0 1 90 0 1
+pintype=pas
+T 400 50 5 4 1 1 0 1 1
+pinlabel=C
+}
+L 350 100 150 200 3 0 0 0 -1 -1
+L 350 500 150 400 3 0 0 0 -1 -1
+H 3 0 0 0 -1 -1 1 -1 -1 -1 -1 -1 5
+M 150,400
+L 182,448
+L 208,397
+L 150,400
+z
+L 150 500 150 100 3 0 0 0 -1 -1
+P 0 300 100 300 1 0 0
+{
+T 0 200 5 6 0 1 0 0 1
+pinnumber=B
+T 110 184 5 6 0 1 90 0 1
+pinseq=2
+T 116 101 5 6 0 1 90 0 1
+pintype=pas
+T 50 325 5 4 1 1 0 3 1
+pinlabel=B
+}
+L 150 300 100 300 3 0 0 0 -1 -1
+T 400 300 8 6 1 1 0 0 1
+refdes=Q?
+T 4 1306 8 6 0 0 0 0 1
+footprint=unknown
+T 4 1448 8 6 0 0 0 0 1
+numslots=0
+T 0 1750 8 6 0 0 0 0 1
+device=PNP_TRANSISTOR
+T 0 1600 8 6 0 0 0 0 1
+symversion=1.0
+T 0 1150 8 6 0 0 0 0 1
+author=Ian Glen <ian@ianglen.me>
+T 0 1000 8 6 0 0 0 0 1
+dist-license=public domain
