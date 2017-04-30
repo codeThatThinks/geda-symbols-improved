@@ -2,7 +2,7 @@ v 20130925 2
 P 350 600 350 500 1 0 0
 {
 T 250 550 5 6 0 1 0 0 1
-pinnumber=S
+pinnumber=3
 T 187 551 5 6 0 1 0 0 1
 pinseq=3
 T 180 597 5 6 0 1 0 0 1
@@ -13,7 +13,7 @@ pinlabel=S
 P 350 100 350 0 1 0 1
 {
 T 250 0 5 6 0 1 0 0 1
-pinnumber=D
+pinnumber=2
 T 234 0 5 6 0 1 0 0 1
 pinseq=2
 T 250 -2 5 6 0 1 90 0 1
@@ -33,7 +33,7 @@ L 150 500 150 100 3 0 0 0 -1 -1
 P 0 500 100 500 1 0 0
 {
 T 0 400 5 6 0 1 0 0 1
-pinnumber=G
+pinnumber=1
 T 110 384 5 6 0 1 90 0 1
 pinseq=1
 T 116 301 5 6 0 1 90 0 1
@@ -51,7 +51,7 @@ numslots=0
 T 0 1750 8 6 0 0 0 0 1
 device=P_CHANNEL_ENHANCEMENT_MOSEFT
 T 0 1600 8 6 0 0 0 0 1
-symversion=1.0
+symversion=1.1
 T 0 1150 8 6 0 0 0 0 1
 author=Ian Glen <ian@ianglen.me>
 T 0 1000 8 6 0 0 0 0 1

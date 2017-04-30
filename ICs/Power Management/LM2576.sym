@@ -19,7 +19,7 @@ pinseq=1
 T 155 495 3 6 1 1 0 1 1
 pinlabel=IN
 T 50 550 5 4 1 1 0 3 1
-netname=1
+pinnumber=1
 }
 P 400 0 400 100 1 0 0
 {
