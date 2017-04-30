@@ -31,9 +31,9 @@ L 200 100 200 185 3 0 0 0 -1 -1
 T 150 300 9 6 1 0 0 4 1
 M
 T 0 1195 8 6 0 0 0 0 1
-footprint=none
+footprint=unknown
 T 0 1345 8 6 0 0 0 0 1
-symversion=1.0
+symversion=1.1
 T 0 1050 8 6 0 0 0 0 1
 author=Ian Glen <ian@ianglen.me>
 T 0 900 8 6 0 0 0 0 1
