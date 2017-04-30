@@ -1,0 +1,75 @@
+v 20130925 2
+P 1300 600 1200 600 1 0 0
+{
+T 1500 600 5 10 0 0 0 0 1
+pintype=in
+T 1500 600 5 10 0 0 0 0 1
+pinseq=5
+T 1145 595 3 6 1 1 0 7 1
+pinlabel=FB
+T 1250 650 5 4 1 1 0 3 1
+pinnumber=4
+}
+P 0 500 100 500 1 0 0
+{
+T 0 500 5 10 0 0 0 6 1
+pintype=pwr
+T 0 500 5 10 0 0 0 6 1
+pinseq=1
+T 155 495 3 6 1 1 0 1 1
+pinlabel=IN
+T 50 550 5 4 1 1 0 3 1
+netname=1
+}
+P 400 0 400 100 1 0 0
+{
+T 400 0 5 10 0 0 270 0 1
+pintype=pwr
+T 405 150 3 6 1 1 0 3 1
+pinlabel=GND
+T 400 0 5 10 0 0 270 0 1
+pinseq=2
+T 450 50 5 4 1 1 0 1 1
+pinnumber=3
+}
+P 900 0 900 100 1 0 0
+{
+T 900 0 5 10 0 0 270 0 1
+pintype=in
+T 905 150 3 6 1 1 0 3 1
+pinlabel=\_ON\_/OFF
+T 900 0 5 10 0 0 270 0 1
+pinseq=3
+T 950 50 5 4 1 1 0 1 1
+pinnumber=5
+}
+B 100 100 1100 625 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 650 675 9 6 1 0 0 5 1
+LM2576
+T 0 2150 5 6 0 0 0 0 1
+device=LM2576
+T 150 775 8 6 1 1 0 0 1
+refdes=U?
+T -5 1845 8 6 0 0 0 0 1
+symversion=1.0
+P 1300 400 1200 400 1 0 0
+{
+T 1300 400 5 10 0 0 0 0 1
+pintype=pwr
+T 1300 400 5 10 0 0 0 0 1
+pinseq=4
+T 1145 395 3 6 1 1 0 7 1
+pinlabel=OUT
+T 1250 450 5 4 1 1 0 3 1
+pinnumber=2
+}
+T 0 1700 8 6 0 0 0 0 1
+numslots=0
+T 0 1550 8 6 0 0 0 0 1
+footprint=TO-220
+T 0 1400 8 6 0 0 0 0 1
+author=Ian Glen <ian@ianglen.me>
+T 0 1250 8 6 0 0 0 0 1
+dist-license=public domain
+T 0 2000 8 6 0 0 0 0 1
+description=3 A step-down switching regulator
