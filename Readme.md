@@ -4,11 +4,28 @@ A better symbol library for gEDA. Smaller, more consistent, and more readable. T
 
 ## Installation
 
-Download a zip of this archive and put the contents into a folder somewhere. Then modify your `~/.gEDA/gschemrc` add add the following lines, making sure to change `/path/to/the/folder/you/created/` to the path to the folder you created:
+Copy the `sym-improved` folder to `/usr/share/gEDA/`. Then modify your `~/.gEDA/gafrc` add add the following lines at the end:
 
 ```
 (reset-component-library)
-(component-library-search "/path/to/the/folder/you/created/")
+(component-library-search "/usr/share/gEDA/sym-improved/")
+```
+
+Also add the following lines to `~/.gEDA/gschemrc` for an improved user experience:
+
+```
+(snap-size 50)
+(text-size 6)
+(pin-style "thick")
+(line-style "thick")
+```
+
+### Titleblock
+
+To use the letter-sized titleblock as default, add the following to `~/.gEDA/gschemrc`:
+
+```
+(define default-titleblock "title-bordered-letter.sym")
 ```
 
 ## License
