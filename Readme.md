@@ -2,7 +2,7 @@
 
 A better symbol library for gEDA. Smaller, more consistent, and more readable. This is intended to be a complete replacement of the library included with gEDA.
 
-![Screenshot](screenshot.svg)
+![Preview](preview.svg)
 
 ## Installation
 
