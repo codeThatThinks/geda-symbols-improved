@@ -2,6 +2,8 @@
 
 A better symbol library for gEDA. Smaller, more consistent, and more readable. This is intended to be a complete replacement of the library included with gEDA.
 
+![Screenshot](screenshot.svg)
+
 ## Installation
 
 Copy the `sym-improved` folder to `/usr/share/gEDA/`. Then modify your `~/.gEDA/gafrc` add add the following lines at the end:
