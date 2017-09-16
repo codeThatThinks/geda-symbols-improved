@@ -1,4 +1,4 @@
-# geda-symbols-improved
+# geda-better-symbols
 
 A better symbol library for gEDA. Smaller, more consistent, and more readable. This is intended to be a complete replacement of the library included with gEDA.
 
@@ -6,11 +6,11 @@ A better symbol library for gEDA. Smaller, more consistent, and more readable. T
 
 ## Installation
 
-Copy the `sym-improved` folder to `/usr/share/gEDA/`. Then modify your `~/.gEDA/gafrc` add add the following lines at the end:
+Copy the `sym-better` folder to `/usr/share/gEDA/`. Then modify your `~/.gEDA/gafrc` add add the following lines at the end:
 
 ```
 (reset-component-library)
-(component-library-search "/usr/share/gEDA/sym-improved/")
+(component-library-search "/usr/share/gEDA/sym-better/")
 ```
 
 Also add the following lines to `~/.gEDA/gschemrc` for an improved user experience:
