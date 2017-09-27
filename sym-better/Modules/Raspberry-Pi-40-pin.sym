@@ -1,0 +1,377 @@
+v 20130925 2
+T 1100 75 9 6 1 0 0 5 1
+RASPBERRY PI
+T 3250 3000 5 6 0 0 0 0 1
+device=RASPBERRY_PI
+T 150 4025 8 6 1 1 0 0 1
+refdes=U?
+T 3245 2845 8 6 0 0 0 0 1
+symversion=1.0
+T 3250 2700 8 6 0 0 0 0 1
+numslots=0
+T 3250 2550 8 6 0 0 0 0 1
+footprint=HEADER_20x2
+T 3250 2400 8 6 0 0 0 0 1
+author=Ian Glen <ian@ianglen.me>
+T 3250 2250 8 6 0 0 0 0 1
+dist-license=public domain
+P 0 2050 100 2050 1 0 0
+{
+T 0 2050 5 10 0 0 0 6 1
+pintype=io
+T 0 2050 5 10 0 0 0 6 1
+pinseq=9
+T 155 2045 3 6 1 1 0 1 1
+pinlabel=BCM 17
+T 50 2100 5 4 1 1 0 3 1
+pinnumber=11
+}
+P 0 1850 100 1850 1 0 0
+{
+T 0 1850 5 10 0 0 0 6 1
+pintype=io
+T 0 1850 5 10 0 0 0 6 1
+pinseq=10
+T 155 1845 3 6 1 1 0 1 1
+pinlabel=BCM 18 (PWM0)
+T 50 1900 5 4 1 1 0 3 1
+pinnumber=12
+}
+P 0 650 100 650 1 0 0
+{
+T 0 650 5 10 0 0 0 6 1
+pintype=io
+T 0 650 5 10 0 0 0 6 1
+pinseq=16
+T 155 645 3 6 1 1 0 1 1
+pinlabel=BCM 27
+T 50 700 5 4 1 1 0 3 1
+pinnumber=13
+}
+P 0 1650 100 1650 1 0 0
+{
+T 0 1650 5 10 0 0 0 6 1
+pintype=io
+T 0 1650 5 10 0 0 0 6 1
+pinseq=11
+T 155 1645 3 6 1 1 0 1 1
+pinlabel=BCM 22
+T 50 1700 5 4 1 1 0 3 1
+pinnumber=15
+}
+P 0 1450 100 1450 1 0 0
+{
+T 0 1450 5 10 0 0 0 6 1
+pintype=io
+T 0 1450 5 10 0 0 0 6 1
+pinseq=12
+T 155 1445 3 6 1 1 0 1 1
+pinlabel=BCM 23
+T 50 1500 5 4 1 1 0 3 1
+pinnumber=16
+}
+P 0 1250 100 1250 1 0 0
+{
+T 0 1250 5 10 0 0 0 6 1
+pintype=io
+T 0 1250 5 10 0 0 0 6 1
+pinseq=13
+T 155 1245 3 6 1 1 0 1 1
+pinlabel=BCM 24
+T 50 1300 5 4 1 1 0 3 1
+pinnumber=18
+}
+P 2150 2050 2050 2050 1 0 0
+{
+T 2150 2050 5 10 0 0 0 0 1
+pintype=io
+T 2150 2050 5 10 0 0 0 0 1
+pinseq=25
+T 1995 2045 3 6 1 1 0 7 1
+pinlabel=(MOSI) BCM 10
+T 2095 2095 5 4 1 1 0 3 1
+pinnumber=19
+}
+P 0 3850 100 3850 1 0 0
+{
+T 0 3850 5 10 0 0 0 6 1
+pintype=pwr
+T 0 3850 5 10 0 0 0 6 1
+pinseq=1
+T 155 3845 3 6 1 1 0 1 1
+pinlabel=3.3V
+T 50 3900 5 4 1 1 0 3 1
+pinnumber=1
+T 0 3850 5 6 0 0 0 0 1
+pinnumber=17
+}
+P 0 3650 100 3650 1 0 0
+{
+T 0 3650 5 10 0 0 0 6 1
+pintype=pwr
+T 0 3650 5 10 0 0 0 6 1
+pinseq=2
+T 155 3645 3 6 1 1 0 1 1
+pinlabel=5V
+T 50 3700 5 4 1 1 0 3 1
+pinnumber=2
+T 0 3650 5 6 0 0 0 0 1
+pinnumber=4
+}
+P 2150 3250 2050 3250 1 0 0
+{
+T 2150 3250 5 10 0 0 0 0 1
+pintype=io
+T 2150 3250 5 10 0 0 0 0 1
+pinseq=20
+T 1995 3245 3 6 1 1 0 7 1
+pinlabel=(SDA) BCM 2
+T 2095 3295 5 4 1 1 0 3 1
+pinnumber=3
+}
+P 2150 3050 2050 3050 1 0 0
+{
+T 2150 3050 5 10 0 0 0 0 1
+pintype=io
+T 2150 3050 5 10 0 0 0 0 1
+pinseq=21
+T 1995 3045 3 6 1 1 0 7 1
+pinlabel=(SCL) BCM 3
+T 2095 3095 5 4 1 1 0 3 1
+pinnumber=5
+}
+P 0 250 100 250 1 0 0
+{
+T 0 250 5 10 0 0 0 6 1
+pintype=pwr
+T 0 250 5 10 0 0 0 6 1
+pinseq=17
+T 155 245 3 6 1 1 0 1 1
+pinlabel=GND
+T 50 300 5 4 1 1 0 3 1
+pinnumber=6
+T 0 250 5 6 0 0 0 0 1
+pinnumber=9
+T 0 250 5 6 0 0 0 0 1
+pinnumber=14
+T 0 250 5 6 0 0 0 0 1
+pinnumber=20
+T 0 250 5 6 0 0 0 0 1
+pinnumber=25
+T 0 250 5 6 0 0 0 0 1
+pinnumber=30
+T 0 250 5 6 0 0 0 0 1
+pinnumber=34
+T 0 250 5 6 0 0 0 0 1
+pinnumber=39
+}
+P 0 3250 100 3250 1 0 0
+{
+T 0 3250 5 10 0 0 0 6 1
+pintype=io
+T 0 3250 5 10 0 0 0 6 1
+pinseq=3
+T 155 3245 3 6 1 1 0 1 1
+pinlabel=BCM 4 (GPCLK0)
+T 50 3300 5 4 1 1 0 3 1
+pinnumber=7
+}
+P 2150 650 2050 650 1 0 0
+{
+T 2150 650 5 10 0 0 0 0 1
+pintype=io
+T 2150 650 5 10 0 0 0 0 1
+pinseq=30
+T 1995 645 3 6 1 1 0 7 1
+pinlabel=(TXD) BCM 14
+T 2095 695 5 4 1 1 0 3 1
+pinnumber=8
+}
+P 2150 450 2050 450 1 0 0
+{
+T 2150 450 5 10 0 0 0 0 1
+pintype=io
+T 2150 450 5 10 0 0 0 0 1
+pinseq=31
+T 1995 445 3 6 1 1 0 7 1
+pinlabel=(RXD) BCM 15
+T 2095 495 5 4 1 1 0 3 1
+pinnumber=10
+}
+P 0 2850 100 2850 1 0 0
+{
+T 0 2850 5 10 0 0 0 6 1
+pintype=io
+T 0 2850 5 10 0 0 0 6 1
+pinseq=5
+T 155 2845 3 6 1 1 0 1 1
+pinlabel=BCM 6
+T 55 2895 5 4 1 1 0 3 1
+pinnumber=31
+}
+P 0 2650 100 2650 1 0 0
+{
+T 0 2650 5 10 0 0 0 6 1
+pintype=io
+T 0 2650 5 10 0 0 0 6 1
+pinseq=6
+T 155 2645 3 6 1 1 0 1 1
+pinlabel=BCM 12 (PWM0)
+T 55 2695 5 4 1 1 0 3 1
+pinnumber=32
+}
+P 0 2450 100 2450 1 0 0
+{
+T 0 2450 5 10 0 0 0 6 1
+pintype=io
+T 0 2450 5 10 0 0 0 6 1
+pinseq=7
+T 155 2445 3 6 1 1 0 1 1
+pinlabel=BCM 13 (PWM1)
+T 55 2495 5 4 1 1 0 3 1
+pinnumber=33
+}
+P 2150 1450 2050 1450 1 0 0
+{
+T 2150 1450 5 10 0 0 0 0 1
+pintype=io
+T 2150 1450 5 10 0 0 0 0 1
+pinseq=27
+T 1995 1445 3 6 1 1 0 7 1
+pinlabel=(MISO) BCM 19
+T 2095 1495 5 4 1 1 0 3 1
+pinnumber=35
+}
+P 0 2250 100 2250 1 0 0
+{
+T 0 2250 5 10 0 0 0 6 1
+pintype=io
+T 0 2250 5 10 0 0 0 6 1
+pinseq=8
+T 155 2245 3 6 1 1 0 1 1
+pinlabel=BCM 16
+T 55 2295 5 4 1 1 0 3 1
+pinnumber=36
+}
+P 0 850 100 850 1 0 0
+{
+T 0 850 5 10 0 0 0 6 1
+pintype=io
+T 0 850 5 10 0 0 0 6 1
+pinseq=15
+T 155 845 3 6 1 1 0 1 1
+pinlabel=BCM 26
+T 55 895 5 4 1 1 0 3 1
+pinnumber=37
+}
+P 2150 1250 2050 1250 1 0 0
+{
+T 2150 1250 5 10 0 0 0 0 1
+pintype=io
+T 2150 1250 5 10 0 0 0 0 1
+pinseq=28
+T 1995 1245 3 6 1 1 0 7 1
+pinlabel=(MOSI) BCM 20
+T 2095 1295 5 4 1 1 0 3 1
+pinnumber=38
+}
+P 2150 1050 2050 1050 1 0 0
+{
+T 2150 1050 5 10 0 0 0 0 1
+pintype=io
+T 2150 1050 5 10 0 0 0 0 1
+pinseq=29
+T 1995 1045 3 6 1 1 0 7 1
+pinlabel=(SCLK) BCM 21
+T 2095 1095 5 4 1 1 0 3 1
+pinnumber=40
+}
+P 2150 2250 2050 2250 1 0 0
+{
+T 2150 2250 5 10 0 0 0 0 1
+pintype=io
+T 2150 2250 5 10 0 0 0 0 1
+pinseq=24
+T 1995 2245 3 6 1 1 0 7 1
+pinlabel=(MISO) BCM 9
+T 2095 2295 5 4 1 1 0 3 1
+pinnumber=21
+}
+P 0 1050 100 1050 1 0 0
+{
+T 0 1050 5 10 0 0 0 6 1
+pintype=io
+T 0 1050 5 10 0 0 0 6 1
+pinseq=14
+T 155 1045 3 6 1 1 0 1 1
+pinlabel=BCM 25
+T 55 1095 5 4 1 1 0 3 1
+pinnumber=22
+}
+P 2150 1850 2050 1850 1 0 0
+{
+T 2150 1850 5 10 0 0 0 0 1
+pintype=io
+T 2150 1850 5 10 0 0 0 0 1
+pinseq=26
+T 1995 1845 3 6 1 1 0 7 1
+pinlabel=(SCLK) BCM 11
+T 2095 1895 5 4 1 1 0 3 1
+pinnumber=23
+}
+P 2150 2450 2050 2450 1 0 0
+{
+T 2150 2450 5 10 0 0 0 0 1
+pintype=io
+T 2150 2450 5 10 0 0 0 0 1
+pinseq=23
+T 1995 2445 3 6 1 1 0 7 1
+pinlabel=(CE0) BCM 8
+T 2095 2495 5 4 1 1 0 3 1
+pinnumber=24
+}
+P 2150 2650 2050 2650 1 0 0
+{
+T 2150 2650 5 10 0 0 0 0 1
+pintype=io
+T 2150 2650 5 10 0 0 0 0 1
+pinseq=22
+T 1995 2645 3 6 1 1 0 7 1
+pinlabel=(CE1) BCM 7
+T 2095 2695 5 4 1 1 0 3 1
+pinnumber=26
+}
+P 2150 3650 2050 3650 1 0 0
+{
+T 2150 3650 5 10 0 0 0 0 1
+pintype=io
+T 2150 3650 5 10 0 0 0 0 1
+pinseq=18
+T 1995 3645 3 6 1 1 0 7 1
+pinlabel=(ID_SD) BCM 0
+T 2095 3695 5 4 1 1 0 3 1
+pinnumber=27
+}
+P 2150 3450 2050 3450 1 0 0
+{
+T 2150 3450 5 10 0 0 0 0 1
+pintype=io
+T 2150 3450 5 10 0 0 0 0 1
+pinseq=19
+T 1995 3445 3 6 1 1 0 7 1
+pinlabel=(ID_SC) BCM 1
+T 2095 3495 5 4 1 1 0 3 1
+pinnumber=28
+}
+P 0 3050 100 3050 1 0 0
+{
+T 0 3050 5 10 0 0 0 6 1
+pintype=io
+T 0 3050 5 10 0 0 0 6 1
+pinseq=4
+T 155 3045 3 6 1 1 0 1 1
+pinlabel=BCM 5
+T 55 3095 5 4 1 1 0 3 1
+pinnumber=29
+}
+B 100 125 1950 3850 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
