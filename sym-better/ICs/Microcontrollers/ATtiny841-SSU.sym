@@ -1,0 +1,172 @@
+v 20130925 2
+T 1000 75 9 6 1 0 0 5 1
+ATtiny841-SSU
+T 3250 3000 5 6 0 0 0 0 1
+device=ATtiny841
+T 100 1825 8 6 1 1 0 0 1
+refdes=U?
+T 3245 2845 8 6 0 0 0 0 1
+symversion=1.0
+T 3250 2700 8 6 0 0 0 0 1
+numslots=0
+T 3250 2550 8 6 0 0 0 0 1
+footprint=SOIC-0.150-14
+T 3250 2400 8 6 0 0 0 0 1
+author=Ian Glen <ian@ianglen.me>
+T 3250 2250 8 6 0 0 0 0 1
+dist-license=public domain
+P 2050 850 1950 850 1 0 0
+{
+T 2050 850 5 10 0 0 0 0 1
+pintype=io
+T 2050 850 5 10 0 0 0 0 1
+pinseq=11
+T 1895 845 3 6 1 1 0 7 1
+pinlabel=(RXD1/SCK) PA4
+T 1970 895 5 4 1 1 0 0 1
+pinnumber=9
+}
+P 0 1650 100 1650 1 0 0
+{
+T 0 1650 5 10 0 0 0 6 1
+pintype=pwr
+T 0 1650 5 10 0 0 0 6 1
+pinseq=1
+T 155 1645 3 6 1 1 0 1 1
+pinlabel=VCC
+T 75 1700 5 4 1 1 0 6 1
+pinnumber=1
+}
+P 0 250 100 250 1 0 0
+{
+T 0 250 5 10 0 0 0 6 1
+pintype=pwr
+T 0 250 5 10 0 0 0 6 1
+pinseq=6
+T 155 245 3 6 1 1 0 1 1
+pinlabel=GND
+T 80 295 5 4 1 1 0 6 1
+pinnumber=14
+}
+P 0 1250 100 1250 1 0 0
+{
+T 0 1250 5 10 0 0 0 6 1
+pintype=io
+T 0 1250 5 10 0 0 0 6 1
+pinseq=2
+T 155 1245 3 6 1 1 0 1 1
+pinlabel=PB0 (XTAL1)
+T 75 1300 5 4 1 1 0 6 1
+pinnumber=2
+}
+P 0 650 100 650 1 0 0
+{
+T 0 650 5 10 0 0 0 6 1
+pintype=io
+T 0 650 5 10 0 0 0 6 1
+pinseq=5
+T 155 645 3 6 1 1 0 1 1
+pinlabel=PB3 (\_RESET\_)
+T 55 695 5 4 1 1 0 3 1
+pinnumber=4
+}
+P 0 850 100 850 1 0 0
+{
+T 0 850 5 10 0 0 0 6 1
+pintype=io
+T 0 850 5 10 0 0 0 6 1
+pinseq=4
+T 155 845 3 6 1 1 0 1 1
+pinlabel=PB2 (RXD0)
+T 80 895 5 4 1 1 0 6 1
+pinnumber=5
+}
+P 2050 250 1950 250 1 0 0
+{
+T 2050 250 5 10 0 0 0 0 1
+pintype=io
+T 2050 250 5 10 0 0 0 0 1
+pinseq=14
+T 1895 245 3 6 1 1 0 7 1
+pinlabel=(TXD0/\_SS\_) PA7
+T 1970 295 5 4 1 1 0 0 1
+pinnumber=6
+}
+P 2050 450 1950 450 1 0 0
+{
+T 2050 450 5 10 0 0 0 0 1
+pintype=io
+T 2050 450 5 10 0 0 0 0 1
+pinseq=13
+T 1895 445 3 6 1 1 0 7 1
+pinlabel=(SDA/MOSI) PA6
+T 1970 495 5 4 1 1 0 0 1
+pinnumber=7
+}
+P 2050 650 1950 650 1 0 0
+{
+T 2050 650 5 10 0 0 0 0 1
+pintype=io
+T 2050 650 5 10 0 0 0 0 1
+pinseq=12
+T 1895 645 3 6 1 1 0 7 1
+pinlabel=(TXD1/MISO) PA5
+T 1970 695 5 4 1 1 0 0 1
+pinnumber=8
+}
+P 2050 1650 1950 1650 1 0 0
+{
+T 2050 1650 5 10 0 0 0 0 1
+pintype=io
+T 2050 1650 5 10 0 0 0 0 1
+pinseq=7
+T 1895 1645 3 6 1 1 0 7 1
+pinlabel=(MISO) PA0
+T 1970 1695 5 4 1 1 0 0 1
+pinnumber=13
+}
+P 2050 1050 1950 1050 1 0 0
+{
+T 2050 1050 5 10 0 0 0 0 1
+pintype=io
+T 2050 1050 5 10 0 0 0 0 1
+pinseq=10
+T 1895 1045 3 6 1 1 0 7 1
+pinlabel=(SCK) PA3
+T 1970 1095 5 4 1 1 0 0 1
+pinnumber=10
+}
+P 2050 1450 1950 1450 1 0 0
+{
+T 2050 1450 5 10 0 0 0 0 1
+pintype=io
+T 2050 1450 5 10 0 0 0 0 1
+pinseq=8
+T 1895 1445 3 6 1 1 0 7 1
+pinlabel=(TXD0/MOSI) PA1
+T 1970 1495 5 4 1 1 0 0 1
+pinnumber=12
+}
+P 2050 1250 1950 1250 1 0 0
+{
+T 2050 1250 5 10 0 0 0 0 1
+pintype=io
+T 2050 1250 5 10 0 0 0 0 1
+pinseq=9
+T 1895 1245 3 6 1 1 0 7 1
+pinlabel=(RXD0/\_SS\_) PA2
+T 1970 1295 5 4 1 1 0 0 1
+pinnumber=11
+}
+P 0 1050 100 1050 1 0 0
+{
+T 0 1050 5 10 0 0 0 6 1
+pintype=io
+T 0 1050 5 10 0 0 0 6 1
+pinseq=3
+T 155 1045 3 6 1 1 0 1 1
+pinlabel=PB1 (XTAL2)
+T 80 1095 5 4 1 1 0 6 1
+pinnumber=3
+}
+B 100 125 1850 1650 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
