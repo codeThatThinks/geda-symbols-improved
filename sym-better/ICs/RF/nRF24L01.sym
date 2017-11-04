@@ -1,0 +1,106 @@
+v 20130925 2
+T 550 75 9 6 1 0 0 5 1
+nRF24L01
+T 3250 3000 5 6 0 0 0 0 1
+device=nRF24L01
+T 100 1025 8 6 1 1 0 0 1
+refdes=U?
+T 3245 2845 8 6 0 0 0 0 1
+symversion=1.0
+T 3250 2700 8 6 0 0 0 0 1
+numslots=0
+T 3250 2550 8 6 0 0 0 0 1
+footprint=CONNECTOR_2_4
+T 3250 2400 8 6 0 0 0 0 1
+author=Ian Glen <ian@ianglen.me>
+T 3250 2250 8 6 0 0 0 0 1
+dist-license=public domain
+P 0 850 100 850 1 0 0
+{
+T 0 850 5 10 0 0 0 6 1
+pintype=pwr
+T 0 850 5 10 0 0 0 6 1
+pinseq=1
+T 155 845 3 6 1 1 0 1 1
+pinlabel=VCC
+T 75 900 5 4 1 1 0 6 1
+pinnumber=2
+}
+P 0 250 100 250 1 0 0
+{
+T 0 250 5 10 0 0 0 6 1
+pintype=pwr
+T 0 250 5 10 0 0 0 6 1
+pinseq=4
+T 155 245 3 6 1 1 0 1 1
+pinlabel=GND
+T 80 295 5 4 1 1 0 6 1
+pinnumber=1
+}
+P 1100 650 1000 650 1 0 0
+{
+T 1100 650 5 10 0 0 0 0 1
+pintype=out
+T 1100 650 5 10 0 0 0 0 1
+pinseq=6
+T 945 645 3 6 1 1 0 7 1
+pinlabel=MISO
+T 1020 695 5 4 1 1 0 0 1
+pinnumber=7
+}
+P 0 650 100 650 1 0 0
+{
+T 0 650 5 10 0 0 0 6 1
+pintype=out
+T 0 650 5 10 0 0 0 6 1
+pinseq=2
+T 155 645 3 6 1 1 0 1 1
+pinlabel=IRQ
+T 80 695 5 4 1 1 0 6 1
+pinnumber=8
+}
+P 1100 450 1000 450 1 0 0
+{
+T 1100 450 5 10 0 0 0 0 1
+pintype=in
+T 1100 450 5 10 0 0 0 0 1
+pinseq=7
+T 945 445 3 6 1 1 0 7 1
+pinlabel=SCK
+T 1020 495 5 4 1 1 0 0 1
+pinnumber=5
+}
+P 0 450 100 450 1 0 0
+{
+T 0 450 5 10 0 0 0 6 1
+pintype=in
+T 0 450 5 10 0 0 0 6 1
+pinseq=3
+T 155 445 3 6 1 1 0 1 1
+pinlabel=CE
+T 80 495 5 4 1 1 0 6 1
+pinnumber=3
+}
+P 1100 250 1000 250 1 0 0
+{
+T 1100 250 5 10 0 0 0 0 1
+pintype=in
+T 1100 250 5 10 0 0 0 0 1
+pinseq=8
+T 945 245 3 6 1 1 0 7 1
+pinlabel=\_CSN\_
+T 1020 295 5 4 1 1 0 0 1
+pinnumber=4
+}
+P 1100 850 1000 850 1 0 0
+{
+T 1100 850 5 10 0 0 0 0 1
+pintype=in
+T 1100 850 5 10 0 0 0 0 1
+pinseq=5
+T 945 845 3 6 1 1 0 7 1
+pinlabel=MOSI
+T 1020 895 5 4 1 1 0 0 1
+pinnumber=6
+}
+B 100 125 900 850 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
