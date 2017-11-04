@@ -1,0 +1,238 @@
+v 20130925 2
+T 650 75 9 6 1 0 0 5 1
+MAX7456
+T 3250 3000 5 6 0 0 0 0 1
+device=MAX7456
+T 100 2825 8 6 1 1 0 0 1
+refdes=U?
+T 3245 2845 8 6 0 0 0 0 1
+symversion=1.0
+T 3250 2700 8 6 0 0 0 0 1
+numslots=0
+T 3250 2550 8 6 0 0 0 0 1
+footprint=TSSOP-4.4-20
+T 3250 2400 8 6 0 0 0 0 1
+author=Ian Glen <ian@ianglen.me>
+T 3250 2250 8 6 0 0 0 0 1
+dist-license=public domain
+P 0 850 100 850 1 0 0
+{
+T 0 850 5 10 0 0 0 6 1
+pintype=out
+T 0 850 5 10 0 0 0 6 1
+pinseq=8
+T 155 845 3 6 1 1 0 1 1
+pinlabel=SDOUT
+T 50 900 5 4 1 1 0 3 1
+pinnumber=11
+}
+P 1250 850 1150 850 1 0 0
+{
+T 1250 850 5 10 0 0 0 0 1
+pintype=out
+T 1250 850 5 10 0 0 0 0 1
+pinseq=18
+T 1095 845 3 6 1 1 0 6 1
+pinlabel=LOS
+T 1205 895 5 4 1 1 0 3 1
+pinnumber=12
+}
+P 1250 1450 1150 1450 1 0 0
+{
+T 1250 1450 5 10 0 0 0 0 1
+pintype=in
+T 1250 1450 5 10 0 0 0 0 1
+pinseq=15
+T 1095 1445 3 6 1 1 0 7 1
+pinlabel=\_RESET\_
+T 1195 1495 5 4 1 1 0 3 1
+pinnumber=19
+}
+P 0 2650 100 2650 1 0 0
+{
+T 0 2650 5 10 0 0 0 6 1
+pintype=pwr
+T 0 2650 5 10 0 0 0 6 1
+pinseq=1
+T 155 2645 3 6 1 1 0 1 1
+pinlabel=DVDD
+T 50 2700 5 4 1 1 0 3 1
+pinnumber=3
+}
+P 0 250 100 250 1 0 0
+{
+T 0 250 5 10 0 0 0 6 1
+pintype=pwr
+T 0 250 5 10 0 0 0 6 1
+pinseq=2
+T 155 245 3 6 1 1 0 1 1
+pinlabel=DGND
+T 50 300 5 4 1 1 0 3 1
+pinnumber=9
+}
+P 1250 2650 1150 2650 1 0 0
+{
+T 1250 2650 5 10 0 0 0 0 1
+pintype=pwr
+T 1250 2650 5 10 0 0 0 0 1
+pinseq=10
+T 1095 2645 3 6 1 1 0 7 1
+pinlabel=PVDD
+T 1195 2695 5 4 1 1 0 3 1
+pinnumber=24
+}
+P 1250 250 1150 250 1 0 0
+{
+T 1250 250 5 10 0 0 0 0 1
+pintype=pwr
+T 1250 250 5 10 0 0 0 0 1
+pinseq=20
+T 1095 245 3 6 1 1 0 7 1
+pinlabel=PGND
+T 1195 295 5 4 1 1 0 3 1
+pinnumber=23
+}
+P 0 2250 100 2250 1 0 0
+{
+T 0 2250 5 10 0 0 0 6 1
+pintype=in
+T 0 2250 5 10 0 0 0 6 1
+pinseq=2
+T 155 2245 3 6 1 1 0 1 1
+pinlabel=CLKIN
+T 50 2300 5 4 1 1 0 3 1
+pinnumber=5
+}
+P 0 1850 100 1850 1 0 0
+{
+T 0 1850 5 10 0 0 0 6 1
+pintype=out
+T 0 1850 5 10 0 0 0 6 1
+pinseq=4
+T 155 1845 3 6 1 1 0 1 1
+pinlabel=CLKOUT
+T 55 1895 5 4 1 1 0 3 1
+pinnumber=7
+}
+P 0 1450 100 1450 1 0 0
+{
+T 0 1450 5 10 0 0 0 6 1
+pintype=in
+T 0 1450 5 10 0 0 0 6 1
+pinseq=5
+T 155 1445 3 6 1 1 0 1 1
+pinlabel=\_CS\_
+T 55 1495 5 4 1 1 0 3 1
+pinnumber=8
+}
+P 0 1250 100 1250 1 0 0
+{
+T 0 1250 5 10 0 0 0 6 1
+pintype=in
+T 0 1250 5 10 0 0 0 6 1
+pinseq=6
+T 155 1245 3 6 1 1 0 1 1
+pinlabel=SDIN
+T 55 1295 5 4 1 1 0 3 1
+pinnumber=9
+}
+P 1250 1050 1150 1050 1 0 0
+{
+T 1250 1050 5 10 0 0 0 0 1
+pintype=out
+T 1250 1050 5 10 0 0 0 0 1
+pinseq=17
+T 1095 1045 3 6 1 1 0 7 1
+pinlabel=\_VSYNC\_
+T 1195 1095 5 4 1 1 0 3 1
+pinnumber=17
+}
+P 0 1050 100 1050 1 0 0
+{
+T 0 1050 5 10 0 0 0 6 1
+pintype=in
+T 0 1050 5 10 0 0 0 6 1
+pinseq=7
+T 155 1045 3 6 1 1 0 1 1
+pinlabel=SCLK
+T 55 1095 5 4 1 1 0 3 1
+pinnumber=10
+}
+P 1250 450 1150 450 1 0 0
+{
+T 1250 450 5 10 0 0 0 0 1
+pintype=pwr
+T 1250 450 5 10 0 0 0 0 1
+pinseq=19
+T 1095 445 3 6 1 1 0 7 1
+pinlabel=AGND
+T 1195 495 5 4 1 1 0 3 1
+pinnumber=20
+}
+P 1250 1250 1150 1250 1 0 0
+{
+T 1250 1250 5 10 0 0 0 0 1
+pintype=out
+T 1250 1250 5 10 0 0 0 0 1
+pinseq=16
+T 1095 1245 3 6 1 1 0 7 1
+pinlabel=\_HSYNC\_
+T 1195 1295 5 4 1 1 0 3 1
+pinnumber=18
+}
+P 1250 2450 1150 2450 1 0 0
+{
+T 1250 2450 5 10 0 0 0 0 1
+pintype=pwr
+T 1250 2450 5 10 0 0 0 0 1
+pinseq=11
+T 1095 2445 3 6 1 1 0 7 1
+pinlabel=AVDD
+T 1195 2495 5 4 1 1 0 3 1
+pinnumber=21
+}
+P 1250 1650 1150 1650 1 0 0
+{
+T 1250 1650 5 10 0 0 0 0 1
+pintype=in
+T 1250 1650 5 10 0 0 0 0 1
+pinseq=14
+T 1095 1645 3 6 1 1 0 7 1
+pinlabel=VIN
+T 1195 1695 5 4 1 1 0 3 1
+pinnumber=22
+}
+P 1250 2050 1150 2050 1 0 0
+{
+T 1250 2050 5 10 0 0 0 0 1
+pintype=out
+T 1250 2050 5 10 0 0 0 0 1
+pinseq=12
+T 1095 2045 3 6 1 1 0 7 1
+pinlabel=VOUT
+T 1195 2095 5 4 1 1 0 3 1
+pinnumber=26
+}
+P 1250 1850 1150 1850 1 0 0
+{
+T 1250 1850 5 10 0 0 0 0 1
+pintype=out
+T 1250 1850 5 10 0 0 0 0 1
+pinseq=13
+T 1095 1845 3 6 1 1 0 7 1
+pinlabel=SAG
+T 1195 1895 5 4 1 1 0 3 1
+pinnumber=25
+}
+P 0 2050 100 2050 1 0 0
+{
+T 0 2050 5 10 0 0 0 6 1
+pintype=in
+T 0 2050 5 10 0 0 0 6 1
+pinseq=3
+T 155 2045 3 6 1 1 0 1 1
+pinlabel=XFB
+T 55 2095 5 4 1 1 0 3 1
+pinnumber=6
+}
+B 100 125 1050 2650 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
